@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--&lt;!&ndash;开启组件扫描&ndash;&gt;-->
+    <!--<context:component-scan base-package="game"></context:component-scan>-->
+
+    <!--&lt;!&ndash;注入属性&ndash;&gt;-->
+    <!--<bean id="role" class="game.pojo.Role">-->
+        <!--<property name="id" value="1"></property>-->
+        <!--<property name="roleName" value="role_name_1"></property>-->
+        <!--<property name="note" value="role_note_1"></property>-->
+    <!--</bean>-->
+</beans>
